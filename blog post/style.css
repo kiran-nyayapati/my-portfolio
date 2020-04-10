@@ -41,12 +41,12 @@ h2 {
 .author-text {
 	font-size: 22px;
 	float: left;
-	margin-top: 30px;
+	margin-top: 50px;
 	margin-left: 10px;
 }
 
 .container {
-	width: 1140px;
+	max-width: 1140px;
 	/*margin: top right bottom left;*/
 	margin: 20px auto 0 auto;
 }
@@ -54,24 +54,34 @@ h2 {
 .blog-posts {
 	background-color: rgb(165, 166, 173);
 	width: 75%;
+	border: 1px solid black;
 	float: left;
+	padding-left: 1em;
 	padding-right: 30px;
 	position: relative;
 }
 
+.blog-posts img {
+	height: 100px;
+	width: auto;
+}
+
 .other-posts {
 	background-color: lightslategrey;
+	border: 1px solid black;
+	padding-top: 3.15em;
+	padding-left: 1em;
 	width: 25%;
 	float: left;
 }
 
 .other {
-	margin-bottom: 40px;
+	margin-bottom: 42.5px;
 }
 
 .other-posts > .other > p {
 	color: indigo;
-	font-size: large;
+	font-size: medium;
 }
 
 .author-box {
@@ -83,12 +93,8 @@ h2 {
 	height: 100px;
 	width: 100px;
 	border-radius: 50%;
+	margin: 1em;
 	float: left;
-}
-
-.blog-posts img {
-	height: 100px;
-	width: auto;
 }
 
 .date {
