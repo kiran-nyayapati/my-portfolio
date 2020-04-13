@@ -11,7 +11,7 @@
 }
 
 body {
-	background-color: ivory;
+	background-color: whitesmoke;
 	font-size: 18px;
 	font-family: Arial, Helvetica, sans-serif;
 }
@@ -23,14 +23,13 @@ h2 {
 
 h1 {
 	font-size: 40px;
-	margin-bottom: 20px;
+	margin-bottom: 50px;
 	text-align: center;
 }
 
 h2 {
 	font-size: 25px;
-	margin-top: 10px;
-	margin-bottom: 10px;
+	margin-bottom: 20px;
 }
 
 .main-text {
@@ -40,6 +39,8 @@ h2 {
 
 .author-text {
 	font-size: 22px;
+	color: rgb(0, 121, 0);
+	font-weight: bold;
 	float: left;
 	margin-top: 50px;
 	margin-left: 10px;
@@ -47,15 +48,16 @@ h2 {
 
 .container {
 	max-width: 1140px;
-	/*margin: top right bottom left;*/
 	margin: 20px auto 0 auto;
 }
 
 .blog-posts {
-	background-color: rgb(165, 166, 173);
-	width: 75%;
+	background-color: gainsboro;
+	border-radius: 10px;
+	width: 70%;
 	border: 1px solid black;
 	float: left;
+	margin: 1%;
 	padding-left: 1em;
 	padding-right: 30px;
 	position: relative;
@@ -67,27 +69,23 @@ h2 {
 }
 
 .other-posts {
-	background-color: lightslategrey;
-	border-top: 1px solid black;
-	border-right: 1px solid black;
-	border-bottom: 1px solid black;
-	padding-top: 3.1em;
+	background-color: gainsboro;
+	font-size: medium;
+	border-radius: 10px;
+	border: 1px solid black;
+	margin-top: 0.6em;
+	padding-top: 1em;
 	padding-left: 1em;
 	width: 25%;
 	float: left;
 }
 
-.other {
-	margin-bottom: 42.5px;
-}
-
-.other-posts > .other > p {
-	color: indigo;
-	font-size: medium;
+li {
+	margin: 2rem;
 }
 
 .author-box {
-	padding-top: 20px;
+	padding-top: 10px;
 }
 
 .author-box img {
@@ -102,5 +100,16 @@ h2 {
 	position: absolute;
 	top: 50px;
 	right: 30px;
-	font-size: small;
+	font-size: 12px;
+	font-weight: bolder;
+	color: rgb(0, 121, 0);
+}
+
+a {
+	color: rgb(115, 29, 168);
+	text-decoration: none;
+}
+
+a:hover {
+	color: rgb(0, 121, 0);
 }
